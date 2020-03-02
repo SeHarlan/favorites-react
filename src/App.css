@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  font-family: monospace;
+  color: beige;
+}
+body {
+  background-color: rgb(32, 29, 29);
+}
+
+ul {
+  text-align: left;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  border: 4px groove rgb(182, 36, 36);
+  border-radius: 3px;
+  font-family: inherit;
+  background-color: rgb(109, 109, 109);
+  color: inherit;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+button:active {
+  border: 4px ridge rgb(182, 36, 36);
+}
+
